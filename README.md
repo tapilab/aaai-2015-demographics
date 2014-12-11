@@ -44,6 +44,6 @@ $ cd src
 $ ipython notebook
 ```
 
-[mongodb]: http://docs.mongodb.org/manual/installation/
-[data_collection.ipynb] : http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_collection.ipynb
-[data_processing.ipynb] : http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_processing.ipynb
+[mongodb]:http://docs.mongodb.org/manual/installation/
+[data_collection.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_collection.ipynb
+[data_processing.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_processing.ipynb
