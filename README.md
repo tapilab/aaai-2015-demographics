@@ -39,15 +39,14 @@ $ pip install ipython
 
 ```sh
 $ git clone [git-repo-url] aaai-2015-demographics
-$ cd aaai-2015-demographics
-$ cd src
+$ cd aaai-2015-demographics/src
 $ ipython notebook
 ```
 
 ###Steps to run
 
->Add your twitter credentials to data/twitter-cred.json and run [data_collection.ipynb] T
->This will fetch 300 followes of each brand and 5000 friends of those brands. 
+>Add your twitter credentials to data/twitter-cred.json and run [data_collection.ipynb] 
+>This will fetch 300 followes for each brand and 5000 friends of those brands. 
 >Then run [data_processing.ipynb] to process the collected data.
 >You may also skip data collection and run [data_processing.ipynb] directly. 
 >Pickle files required for [data_processing.ipynb] can be downloaded from [here]
