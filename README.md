@@ -44,5 +44,14 @@ $ cd src
 $ ipython notebook
 ```
 
+###Steps to run
+
+>Add your twitter credentials in data/twitter-cred.json and run [data_collection.ipynb] this will fetch 300 followes of 
+>each brand and 5000 friends of those brands. Then run [data_processing.ipynb] to process the collected data.
+>You may also skip data collection and run [data_processing.ipynb] directly. Pickle files required for [data_processing.ipynb]
+>can be downloaded from [here]
+
+
 [data_collection.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_collection.ipynb
 [data_processing.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_processing.ipynb
+[here]:http://tapi.cs.iit.edu/data/aaai-2015-demographics/2014-11-22/
