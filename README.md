@@ -56,6 +56,8 @@ $ ipython notebook
 [data_collection.ipynb]
 [data_processing.ipynb]
 
+
+
 [data_collection.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_collection.ipynb
 [data_processing.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_processing.ipynb
 [here]:http://tapi.cs.iit.edu/data/aaai-2015-demographics/2014-11-22/
