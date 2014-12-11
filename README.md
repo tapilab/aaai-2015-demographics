@@ -16,16 +16,16 @@ This repository is organized as follows:
 
 ###data
 
-* 'brands.json' : contains names of 1500 websites
-* 'demo.json'   : contains variables information like gender,age etc for the 1500 websites
-* 'gender.txt'  : accounts used for gender classification
-* 'race.txt'    : account used for race classification
-* 'twitter-cred.json' : accounts used in data collection
+* `brands.json` : contains names of 1500 websites
+* `demo.json`   : contains variables information like gender,age etc for the 1500 websites
+* `gender.txt`  : accounts used for gender classification
+* `race.txt`    : account used for race classification
+* `twitter-cred.json` : accounts used in data collection
 
 ###src
 
-* 'data_collection.ipynb' : data collection code
-* 'data_processing.ipynb' : data processing code
+* `data_collection.ipynb` : data collection code
+* `data_processing.ipynb` : data processing code
 
 ###Installation
 
