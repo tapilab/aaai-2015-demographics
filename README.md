@@ -53,8 +53,8 @@ $ ipython notebook
 
 ###view notebooks
 
-[data_collection.ipynb]
-[data_processing.ipynb]
+view data collection notebook [data_collection.ipynb]
+view dara processing noteboon [data_processing.ipynb]
 
 
 
