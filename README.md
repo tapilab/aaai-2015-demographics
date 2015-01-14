@@ -5,39 +5,42 @@ Understanding the demographics of users of online social networks has important 
 ## Content
 
 This repository is organized as follows: 
-* data
-* src
+* [`data`](data/): (some) of the data used in the experiments.
+* [`src`](src/): iPython notebooks to reproduce results.
 
-###data
+###[`data`](data/)
 
 * `brands.json` : contains names of 1500 websites
 * `demo.json`   : contains variables information like gender,age etc for the 1500 websites
 * `twitter-cred.json` : accounts used in data collection
 
-###src
+###[`src`](src/)
 
 * `data_collection.ipynb` : data collection code
 * `data_processing.ipynb` : data processing code
 
-###Installation
+###Installation and configuration
 
+1. [Install MongoDB](http://docs.mongodb.org/manual/installation/)
+2. Install python modules
 ```sh
-install [mongodb] http://docs.mongodb.org/manual/installation/
 $ pip install anaconda
 $ pip install pymongo
 $ pip install twython
 $ pip install ipython
+$ pip install twutil
 ```
-
+3. Add your twitter credentials to [`data/twitter-cred.json`](data/twitter-cred.json).
+4. Clone this repo
 ```sh
-$ git clone [git-repo-url] aaai-2015-demographics
-$ cd aaai-2015-demographics/src
-$ ipython notebook
+$ git clone https://github.com/tapilab/aaai-2015-demographics.git
 ```
-
-###Steps to run
-
-1. Add your twitter credentials to `data/twitter-cred.json` and run `data_collection.ipynb`. This will fetch 300 followes for each brand and 5000 friends of those brands. (If you don't want to re-collect the data, you can skip straight to the next step.) 2. Run `data_processing.ipynb` to process the collected data.
+5. Run the notebooks
+```sh
+$ cd aaai-2015-demographics/src
+$ ipython notebook --matplotlib inline data_collection.ipynb
+$ ipython notebook --matplotlib inline data_processing.ipynb
+```
 
 ### Static Notebooks
 
