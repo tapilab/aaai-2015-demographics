@@ -45,5 +45,6 @@ $ ipython notebook --matplotlib inline data_processing.ipynb
 ### Static Notebooks
 
 Static versions of the iPython notebooks are here:
-[data_collection.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_collection.ipynb
-[data_processing.ipynb]:http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_processing.ipynb
+
+[data_collection.ipynb](http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_collection.ipynb)
+[data_processing.ipynb](http://nbviewer.ipython.org/github/tapilab/aaai-2015-demographics/blob/master/src/data_processing.ipynb)
