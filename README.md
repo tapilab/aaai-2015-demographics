@@ -1,3 +1,5 @@
+**Please see the more recent version here: <https://github.com/tapilab/jair-2016-demographics>**
+
 This repository contains data and code to reproduce the results of the paper "[Predicting the demographics of Twitter users from website traffic data](http://www.cs.iit.edu/~culotta/pubs/culotta15predicting.pdf)", by Aron Culotta, Nirmal Ravi, and Jennifer Cutler, presented at the 29th AAAI Conference on Artificial Intelligence ([AAAI-15](http://www.aaai.org/Conferences/AAAI/aaai15.php)), 2015.
 
 ## Abstract
